@@ -1,0 +1,8 @@
+# Ответственные за разделы проекта (логины ролей условные)
+/docs/01_initiation/   @project-manager
+/docs/02_analysis/     @system-analyst
+/docs/03_design/       @architect
+/src/                  @developer
+/tests/                @tester
+/docs/06_deployment/   @release-engineer
+/docs/07_maintenance/  @release-engineer
