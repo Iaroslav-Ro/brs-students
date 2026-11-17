@@ -1,0 +1,51 @@
+{
+  "students": [
+    {"id": "s1", "name": "Студент 1", "group": "ИЗДт 23.1"},
+    {"id": "s2", "name": "Студент 2", "group": "ИЗДт 23.1"},
+    {"id": "s3", "name": "Студент 3", "group": "ИЗДт 23.1"},
+    {"id": "s4", "name": "Студент 4", "group": "ИЗДт 23.1"}
+  ],
+  "disciplines": [
+    {"code": "PD", "title": "Проектная деятельность в ИТ", "checkpoints": [
+      {"code": "kt1", "title": "Текущий контроль 1", "max_score": 20},
+      {"code": "kt2", "title": "Текущий контроль 2", "max_score": 20},
+      {"code": "rr", "title": "Рейтинговая работа", "max_score": 20},
+      {"code": "exam", "title": "Промежуточная аттестация", "max_score": 40}
+    ]},
+    {"code": "DB", "title": "Базы данных", "checkpoints": [
+      {"code": "kt1", "title": "Текущий контроль 1", "max_score": 30},
+      {"code": "kt2", "title": "Текущий контроль 2", "max_score": 30},
+      {"code": "exam", "title": "Промежуточная аттестация", "max_score": 40}
+    ]}
+  ],
+  "scores": [
+    {"student": "s1", "discipline": "PD", "checkpoint": "kt1", "value": 18},
+    {"student": "s1", "discipline": "PD", "checkpoint": "kt2", "value": 19},
+    {"student": "s1", "discipline": "PD", "checkpoint": "rr", "value": 18},
+    {"student": "s1", "discipline": "PD", "checkpoint": "exam", "value": 36},
+    {"student": "s1", "discipline": "DB", "checkpoint": "kt1", "value": 27},
+    {"student": "s1", "discipline": "DB", "checkpoint": "kt2", "value": 25},
+    {"student": "s1", "discipline": "DB", "checkpoint": "exam", "value": 34},
+    {"student": "s2", "discipline": "PD", "checkpoint": "kt1", "value": 15},
+    {"student": "s2", "discipline": "PD", "checkpoint": "kt2", "value": 14},
+    {"student": "s2", "discipline": "PD", "checkpoint": "rr", "value": 16},
+    {"student": "s2", "discipline": "PD", "checkpoint": "exam", "value": 30},
+    {"student": "s2", "discipline": "DB", "checkpoint": "kt1", "value": 20},
+    {"student": "s2", "discipline": "DB", "checkpoint": "kt2", "value": 22},
+    {"student": "s2", "discipline": "DB", "checkpoint": "exam", "value": 28},
+    {"student": "s3", "discipline": "PD", "checkpoint": "kt1", "value": 12},
+    {"student": "s3", "discipline": "PD", "checkpoint": "kt2", "value": 10},
+    {"student": "s3", "discipline": "PD", "checkpoint": "rr", "value": 12},
+    {"student": "s3", "discipline": "PD", "checkpoint": "exam", "value": 22},
+    {"student": "s3", "discipline": "DB", "checkpoint": "kt1", "value": 15},
+    {"student": "s3", "discipline": "DB", "checkpoint": "kt2", "value": 12},
+    {"student": "s3", "discipline": "DB", "checkpoint": "exam", "value": 18},
+    {"student": "s4", "discipline": "PD", "checkpoint": "kt1", "value": 8},
+    {"student": "s4", "discipline": "PD", "checkpoint": "kt2", "value": 6},
+    {"student": "s4", "discipline": "PD", "checkpoint": "rr", "value": 10},
+    {"student": "s4", "discipline": "PD", "checkpoint": "exam", "value": 15},
+    {"student": "s4", "discipline": "DB", "checkpoint": "kt1", "value": 14},
+    {"student": "s4", "discipline": "DB", "checkpoint": "kt2", "value": 16},
+    {"student": "s4", "discipline": "DB", "checkpoint": "exam", "value": 24}
+  ]
+}
